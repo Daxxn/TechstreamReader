@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LiveCharts.Wpf" Version="0.9.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Libraries\CSVParserLibrary\CSVParserLibrary.csproj" />
+    <ProjectReference Include="..\..\..\Libraries\MVVMLibrary\MVVMLibrary\MVVMLibrary.csproj" />
+  </ItemGroup>
+
+</Project>
